@@ -10,7 +10,7 @@ export class AppRouters {
     static get routes(): Router {
 
         const router = Router();
-        //Diferentes rutas
+        //Diferentes rutas Path
         router.use('/api/todos', TodoRouters.routes );
 
     return router;
